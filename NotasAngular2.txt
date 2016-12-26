@@ -1,0 +1,37 @@
+//ATOM
+//Instalar Atom
+https://denisvuyka.github.io/2016/05/29/angular2-atom-quickstart.html
+
+//Paquetes recomendados:
+
+
+apm install atom-typescript atom-beautify linter editorconfig file-icons platformio-ide-terminal minimap split-diff merge-conflicts git-plus
+
+//Instalar TypeScript
+sudo npm install -g typescript@2.1.4
+
+//Instalar AngularCLI
+sudo npm install -g angular-cli@1.0.0-beta.24
+(OPCIONAL??)sudo npm install -g ember-cli-deploy@1.0.0-beta.2 
+
+//Crear Proyecto Angular2
+ng new angular2-hello-world
+
+
+//Crear Componente
+cd angular2-hello-world
+ng generate component hello-world
+
+//Ejecutar Servidor
+ng serve
+
+ng generate component user-item
+ng generate component user-list
+
+
+//Instalar TSUN
+sudo npm install -g tsun
+
+//Tipos Básicos TypeScript
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+
