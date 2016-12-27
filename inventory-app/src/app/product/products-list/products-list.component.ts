@@ -1,13 +1,17 @@
-import { Component, OnInit,EventEmitter } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import { Product } from '../model/product.model';
-@Component({
+/**
+ * @ProductsListComponent: A component for rendering all ProductRows and
+ * storing the currently selected Product
+ */
+Component({
   selector: 'products-list',
   inputs: ['productList'],
   outputs: ['onProductSelected'],
   templateUrl: './products-list.component.html',
   styleUrls: ['./products-list.component.css']
 })
-export class ProductsListComponent implements OnInit {
+export class ProductsListComponent  {
   /**
    * @input productList - the Product[] passed to us
    */
@@ -40,7 +44,5 @@ export class ProductsListComponent implements OnInit {
     }
     return product.sku === this.currentProduct.sku;
   }
-  ngOnInit(){
 
-  }
 }

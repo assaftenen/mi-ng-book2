@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { Product } from './product/model/product.model';
+/**
+ * @AppComponent: the top-level component for our application
+ */
 @Component({
   selector: 'inventory-app',
   templateUrl: './app.component.html',
