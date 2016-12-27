@@ -4,7 +4,7 @@ import { Product } from '../model/product.model';
  * @ProductsListComponent: A component for rendering all ProductRows and
  * storing the currently selected Product
  */
-Component({
+@Component({
   selector: 'products-list',
   inputs: ['productList'],
   outputs: ['onProductSelected'],
