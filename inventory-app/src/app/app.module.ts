@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ProductsListComponent } from './products-list/products-list.component';
+import { ProductsListComponent } from './product/products-list/products-list.component';
 
 @NgModule({
   declarations: [
